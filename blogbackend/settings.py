@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'djoser',                      # সহজে login/register API দিতে
     'corsheaders',                # Frontend থেকে API call allow করার জন্য
     'accounts',                   # Custom user model ও authentication
-    'blog',                       # Blog CRUD এর জন্য
+    'blog',  
+    'contact',                     # Blog CRUD এর জন্য
 ]
 
 # Middleware-এ CORS Middleware যোগ করি, যাতে Vue.js থেকে API call করা যায়
